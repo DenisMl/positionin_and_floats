@@ -1,0 +1,172 @@
+@font-face {
+    font-family: "MyriadProRegular";
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+	background-color: white ;
+	color:  #333333;
+	font-family: "MyriadProRegular", sans-serif;
+  height: 2000px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 0px;
+	margin-bottom: 14px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+  clear: both;
+}
+
+.cup-img {
+  width: 207px;
+  height: 111px;
+  float: left;
+  margin-right: 21px;
+}
+
+.sheet-img {
+  width: 140px;
+  height: 140px;
+  float: right;
+  margin-left: 21px;
+  margin-bottom: 21px;
+}
+
+p {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.pages {
+  width: 605px;
+  height: 789px;
+  position: relative;
+  top: 200px;
+  margin: auto;
+
+}
+
+.sheet {
+  border-width: 2px;
+  border-color: #000000;
+  border-style: solid;
+  width: 526px;
+  height: 752px;
+  position: absolute;
+  box-sizing: border-box;
+  padding: 40px 33px 40px 33px;
+}
+
+.top-sheet {
+  background-color: #ebebeb;
+  z-index: 3;
+}
+
+.middle-sheet {
+  background-color: #cccccc;
+  top: 20px;
+  left: 20px;
+  z-index: 2;
+}
+
+.bottom-sheet {
+  background-color: #acacac;
+  top: 40px;
+  left: 40px;
+}
+
+.social-box {
+  position: fixed;
+  right: 0;
+  bottom: 5vh;
+  z-index: 5;
+  border-width: 1px;
+  border-color: #362f2d;
+  border-style: solid;
+  background-color: #fbaf5d;
+  width: 87px;
+  height: 69px;
+}
+
+.bookmark-top {
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-width: 2px;
+  border-color: #000000;
+  border-style: solid;
+  background-color: #f68e56;
+  width: 107px;
+  height: 31px;
+  position: absolute;
+  left: 494px;
+  top: 40px;
+}
+
+.bookmark-middle {
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-width: 2px;
+  border-color: #000000;
+  border-style: solid;
+  background-color: #39b54a;
+  width: 95px;
+  height: 31px;
+  position: absolute;
+  left: 472px;
+  top: 43px;
+}
+
+.bookmark-bottom {
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-width: 2px;
+  border-color: #000000;
+  border-style: solid;
+  background-color: #00aeef;
+  width: 95px;
+  height: 31px;
+  position: absolute;
+  left: 440px;
+  top: 48px;
+}
+
+.right-joke {
+  float: right;
+}
+
+.jokes-line {
+  margin-bottom: 14px;
+    height: 90px;
+}
+
+.footer-text {
+  font-size: 9px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.social-box-title {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 11px;
+}
+
+.social-box-icons {
+  width: 79px;
+  margin: auto;
+}
